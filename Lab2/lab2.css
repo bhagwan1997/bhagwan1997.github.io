@@ -3,7 +3,7 @@
 }
 
 .artistDirectory {
-    max-width: 33%;
+    max-width: 35%;
     margin: auto;
     border: 1px;
     border-style: solid;
@@ -13,6 +13,7 @@
 .title {
     margin: 5% 0 0 12.5%;
 }
+
 input[type=text], select {
     width: 75%;
     padding: 2% 2%;
@@ -22,8 +23,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 15px;
-  }
-  
+}
   
 .artistInfo {
     max-width: 25%;
@@ -36,7 +36,7 @@ input[type=text], select {
 
 .artistInfo:hover {
     background-color: lightgray;
-  }
+}
 
 .artistPic {
     width: 100%;
@@ -49,7 +49,6 @@ input[type=text], select {
   }
 
 .infoPic {
- 
     float: left;
     width: 25%;
     padding: 5px;
