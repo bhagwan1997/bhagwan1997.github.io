@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Artist App</title>
+    <link rel="stylesheet" type="text/css" href="lab4.css">
+    <script src="lab4script.js" defer></script>
+</head>
+
+<body onload="loadArtistData()">
+
+        <div class="artistDirectory">
+            <h1 class="title">
+                Artist Directory
+            </h1>
+            <div class="column1">
+                <input id="myInput" class="searchBar" type="text">
+            </div>
+            <div class="column2">
+                <button type="button" id="btn1" class="addArtist" onclick="showForm()">Add Artist</button>
+            </div>
+            <div class="column3">
+                <button type="button" id="btn2" class="searchArtist" onclick="search()">Search</button>
+            </div>
+        </div>
+    
+
+        <form id="myForm">
+            <input type="text" class="artist" id="artistName" name="artistName" placeholder="Artist Name" maxlength="40">
+            <input type="text" class="artist" id="aboutArist" name="aboutArist" placeholder="About Artist" maxlength="40">
+            <input type="text" class="artist" id="imgURL" name="imgURL" placeholder="Image URL">
+            <div id="center">
+                <button type="button" id="add" onclick="addToDirectory()">Add</button>
+            </div>
+        </form>
+
+    </body>
+
+</html>

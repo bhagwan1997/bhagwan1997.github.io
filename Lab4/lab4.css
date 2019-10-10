@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+}
+
+.artistDirectory {
+    max-width: 35%;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.title {
+    margin: 5% 0 0 19%;
+}
+
+.searchBar {
+    width: 100%;
+    padding: 2% 2%;
+    margin: 6% 12.5% 6% 0; 
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.addArtist {
+    background-color: lightgray;
+    border: none;
+    padding: 2% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25%;
+}
+
+.searchArtist {
+    background-color: lightgray;
+    border: none;
+    padding: 15% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25%;
+
+}
+
+.column1 {
+    float: left;
+    width: 60%;
+    padding: 5px;
+    margin-left: 8%;
+}
+.column2 {
+    float: left;
+    width: 13%;
+    padding: 5px;
+}
+.column3 {
+    float: left;
+    width: 13%;
+    padding: 5px;
+}  
+ 
+.artistDirectory::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#myForm {
+    margin: 0 auto; 
+    width: 25%;
+    border: 1px solid gray;
+    padding: 1%;
+    display: none;
+}
+
+.content {
+    margin: 0 auto; 
+    width:25%;
+    border: 1px solid gray;
+    height: 90px;
+    padding: 10px;
+}
+
+.content:hover {
+    background-color: lightgray;
+}
+
+.artist{
+    width: 100%;
+    padding: 2% 2%;
+    margin: 2px auto;
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.aboutArist {
+    color: grey;
+    font-size: 15px;
+}
+
+.artistName {
+    font-size: 25px;
+}
+
+img {
+    float: left;
+    padding-right: 5px;
+}
+
+.deleteBtn {
+    float: right;
+    background: red;
+    border: red;
+    border-radius: 4px;
+    color: white;
+}
+#add {
+    width: 60%;
+    font-size: 11px;
+    background-color:lightgray;
+    border-radius: 4px;
+}
+
+#center {
+    text-align: center;
+}
